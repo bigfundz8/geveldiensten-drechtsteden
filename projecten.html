@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="img/logo-header-brand-transparent.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projecten | Geveldiensten Drechtsteden</title>
+    <meta name="description" content="Eigen projectfoto’s en korte videobeelden van gevelrenovatie, voegwerk en gevelherstel in Zuid-Holland — gegroepeerd per werk." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=20260447" />
+    <!-- layout-lock: voorkomt witte header bij hardnekkige browser-cache -->
+    <style>
+      .site-header{background:linear-gradient(180deg,#0a161f 0%,#0c1a24 55%,#0e2230 100%)!important;border-bottom:3px solid #d4a03c!important;box-shadow:0 12px 40px rgba(0,0,0,.22)!important;}
+      .site-header .nav-desktop a{color:rgba(255,255,255,.88)!important;text-decoration:none!important;}
+      .site-header .nav-desktop a:hover,.site-header .nav-desktop a.is-active{color:#e8c76a!important;}
+      .site-header .nav-toggle{border-color:rgba(255,255,255,.2)!important;background:rgba(255,255,255,.08)!important;}
+      .site-header .nav-toggle-bar{background:#fff!important;}
+      .site-header .btn-primary.btn-header-cta{background:linear-gradient(135deg,#e8c76a 0%,#d4a03c 42%,#c45c3a 100%)!important;color:#1a1008!important;font-weight:800!important;}
+    </style>
+
+  </head>
+  <body>
+    <a class="skip" href="#main">Naar inhoud</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html" aria-label="Geveldiensten Drechtsteden home">
+          <img
+            class="brand-logo"
+            src="img/logo-header-brand-transparent.png"
+            alt="Geveldiensten Drechtsteden — gevelrenovatie, gevelreiniging, metselwerken, impregneren"
+            width="613"
+            height="159"
+            decoding="async"
+          />
+        </a>
+        <nav class="nav-desktop" aria-label="Hoofdmenu">
+          <a href="over-ons.html">Over ons</a>
+          <a href="diensten.html">Diensten</a>
+          <a href="projecten.html" class="is-active">Projecten</a>
+          <a href="werkgebied.html">Werkgebied</a>
+          <a href="faq.html">FAQ</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-right">
+          <a href="contact.html#offerte" class="btn btn-primary btn-header-cta">Offerte</a>
+          <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+            <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-nav" class="mobile-nav" hidden>
+        <div class="mobile-nav-inner wrap">
+          <a href="index.html">Home</a>
+          <a href="over-ons.html">Over ons</a>
+          <a href="diensten.html">Diensten</a>
+          <a href="projecten.html">Projecten</a>
+          <a href="werkgebied.html">Werkgebied</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="faq.html">Veelgestelde vragen</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html#offerte" class="btn btn-primary mobile-nav-offerte">Offerte aanvragen</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="page-hero page-hero--sub">
+        <div class="wrap">
+          <nav class="breadcrumb" aria-label="Broodkruimel"><a href="index.html">Home</a> · Projecten</nav>
+          <h1>Recente projecten</h1>
+          <p class="page-lead">
+            Een selectie van <strong>eigen werk</strong> op baksteengevels — gegroepeerd waar meerdere foto’s bij hetzelfde
+            object horen. Geen stock: dit komt uit uw projecten.
+          </p>
+        </div>
+      </div>
+
+      <section class="section section--muted section--after-hero">
+        <div class="wrap">
+          <nav class="project-filter-bar" id="project-filter" role="toolbar" aria-label="Filter op werkzaamheid">
+            <span class="project-filter-note">Toon alleen dit type werk</span>
+            <button type="button" class="filter-chip is-active" data-filter="all" aria-pressed="true">Alle projecten</button>
+            <button type="button" class="filter-chip" data-filter="voegwerk" aria-pressed="false">Voegwerk</button>
+            <button type="button" class="filter-chip" data-filter="reiniging" aria-pressed="false">Reiniging</button>
+            <button type="button" class="filter-chip" data-filter="kleurherstel" aria-pressed="false">Kleurherstel</button>
+            <button type="button" class="filter-chip" data-filter="metselwerk" aria-pressed="false">Metselwerk</button>
+            <button type="button" class="filter-chip" data-filter="betonreparatie" aria-pressed="false">Betonreparatie</button>
+          </nav>
+          <div class="project-grid">
+            <figure class="project-card card-hover project-card--wide" data-project-cats="voegwerk metselwerk">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Knipvoeg renovatie gevel – project Kortrijk</h2>
+                <p class="project-card__excerpt">
+                  Dit type voegwerk geeft de gevel een luxe en ambachtelijke uitstraling, waarbij diepte, schaduwwerking en contrast duidelijk
+                  naar voren komen. In combinatie met herstel van metselwerk waar nodig vormt het geheel weer één strak en duurzaam gevelbeeld.
+                </p>
+                <div class="project-card__tags"><span>Knipvoeg</span><span>Voegwerk</span><span>Metselwerk</span></div>
+              </header>
+              <div class="ba-grid">
+                <div class="ba-cell">
+                  <span class="ba-label ba-label--alt">Knipvoeg eindresultaat – volledig gevelbeeld</span>
+                  <img
+                    src="img/projecten/hoekpand-renovatie-01.png"
+                    alt="Volledig gevelbeeld hoekpand project Kortrijk: knipvoeg op rode baksteengevel"
+                    width="640"
+                    height="380"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="ba-cell">
+                  <span class="ba-label ba-label--alt">Strak afgewerkte knipvoeg – detail gevel</span>
+                  <img
+                    src="img/projecten/hoekpand-renovatie-02.png"
+                    alt="Detailopname knipvoeg en metselwerk op dezelfde hoekgevel, strak afgewerkt"
+                    width="640"
+                    height="380"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>Hoogwaardig knipvoegwerk met strakke lijnen en duurzaam eindresultaat.</figcaption>
+            </figure>
+
+            <figure class="project-card card-hover project-card--wide" data-project-cats="metselwerk voegwerk">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Resultaat</h2>
+                <p class="project-card__excerpt">
+                  De gevels zijn volledig gereviseerd met respect voor het originele metselverband en de authentieke uitstraling van de
+                  woningen. Door het nauwkeurig herstellen van het voegwerk en de sierdetails ogen beide topgevels weer strak, duurzaam
+                  en in lijn met de oorspronkelijke bouwstijl.
+                </p>
+                <div class="project-card__tags"><span>Snijvoeg</span><span>Voegwerk</span><span>Metselwerk</span></div>
+              </header>
+              <div class="project-triptych">
+                <div class="project-triptych__cell">
+                  <span class="ba-label">Voorsituatie · scheurvorming</span>
+                  <img
+                    src="img/projecten/boog-gebrek-voor.png"
+                    alt="Voorsituatie: sierelement boven raam met scheurvorming en verweerde voegen"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-triptych__cell">
+                  <span class="ba-label ba-label--after">Na revisie · dubbele topgevel</span>
+                  <img
+                    src="img/projecten/topgevel-dubbel-01.png"
+                    alt="Na revisie: dubbele topgevel in rode baksteen met strak gereviseerd snijvoegwerk"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-triptych__cell">
+                  <span class="ba-label ba-label--after">Detail snijvoeg</span>
+                  <img
+                    src="img/projecten/topgevel-dubbel-02.png"
+                    alt="Detail snijvoeg en sierdetails boven kozijnen na gevelrevisie"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>
+                Van plaatselijke schade en scheurvorming naar een strak afgewerkte snijvoeggevel met authentiek karakter.
+              </figcaption>
+            </figure>
+
+            <figure class="project-card card-hover" data-project-cats="voegwerk reiniging">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Uithakken, reinigen, voegen en impregneren – strakke renovatie van bestaande gevel</h2>
+                <p class="project-card__excerpt">
+                  Van versleten voegwerk naar een strak en egaal eindresultaat.
+                </p>
+                <div class="project-card__tags"><span>Voegwerk</span><span>Reiniging</span><span>Impregneren</span></div>
+              </header>
+              <div class="ba-grid">
+                <div class="ba-cell">
+                  <span class="ba-label ba-label--stage">Voor</span>
+                  <img
+                    src="img/projecten/voeg-tijdens-uitfrezen.png"
+                    alt="Voor: lichte baksteengevel na uithakken en reinigen van oude voeg, klaar voor nieuw voegwerk"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="ba-cell">
+                  <span class="ba-label ba-label--after">Na</span>
+                  <img
+                    src="img/projecten/lichte-gevel-afgerond.png"
+                    alt="Na: dezelfde gevel met strak platvol ingestrooid voegwerk op de lichte baksteen"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>
+                Bij dit project is het oude en versleten voegwerk volledig uitgehakt en zorgvuldig gereinigd om een goede hechting te
+                garanderen. Vervolgens is de gevel opnieuw voorzien van <strong>platvol voegwerk</strong>, waarbij de voegen strak en
+                vlak met de steen zijn afgewerkt.
+              </figcaption>
+            </figure>
+
+            <figure class="project-card card-hover" data-project-cats="metselwerk voegwerk">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Gevelrenovatie hoekhuis – complete aanpak van zij- en voorgevel, achtergevel</h2>
+                <p class="project-card__excerpt">
+                  Professionele uitvoering met oog voor detail en veiligheid.
+                </p>
+                <div class="project-card__tags"><span>Voegwerk</span><span>Metselwerk</span></div>
+              </header>
+              <div class="ba-grid">
+                <div class="ba-cell">
+                  <span class="ba-label ba-label--stage">Zijgevel – voorbereiding</span>
+                  <img
+                    src="img/projecten/woning-zijgevel-ac.png"
+                    alt="Zijgevel hoekwoning tijdens voorbereiding: rode bakstenen mantel naar nummerplaat en kozijnen"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="ba-cell">
+                  <span class="ba-label ba-label--stage">
+                    Voorgevel – uitvoering<br />
+                    Gevelrenovatie met steiger
+                  </span>
+                  <img
+                    src="img/projecten/woning-gevel-nummer6.png"
+                    alt="Voorgevel tijdens uitvoering: gevelrenovatie met steiger tegen roodbak geveloppervlak"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>
+                Door een goede werkvoorbereiding en vakmanschap wordt elke gevel duurzaam en netjes afgewerkt.
+              </figcaption>
+            </figure>
+
+            <figure class="project-card card-hover" data-project-cats="voegwerk">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Platvol voegwerk op roodbaksteen – strak en egaal eindresultaat</h2>
+                <p class="project-card__excerpt">
+                  Vers aangebracht voegwerk met een natuurlijke kleurverandering na droging.
+                </p>
+                <div class="project-card__tags"><span>Plat vol</span><span>Voegwerk</span></div>
+              </header>
+              <div class="ba-grid">
+                <div class="ba-cell">
+                  <span class="ba-label">Plat vol voeg · donker morteltint</span>
+                  <img
+                    src="img/projecten/voeg-donkere-joint.png"
+                    alt="Rode bakstenen wand met plat vol ingestrooid voegwerk in donker mortelaccent"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="ba-cell">
+                  <span class="ba-label ba-label--after">Plat vol voeg · lichtere tint</span>
+                  <img
+                    src="img/projecten/voeg-detail-knip-02.png"
+                    alt="Paneel rode baksteen met plat vol voegwerk; lichtere morteltint dan op het naburige vlak"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>
+                Bij dit project is gekozen voor <strong>platvol voegwerk</strong>, waarbij de voegen volledig vlak met het metselwerk worden
+                afgewerkt voor een strakke en rustige uitstraling.
+              </figcaption>
+            </figure>
+
+            <figure class="project-card card-hover project-card--wide" data-project-cats="voegwerk">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Strakke snijvoeg – perfect lijnenspel en strakke afwerking</h2>
+                <p class="project-card__excerpt">
+                  Snijvoeg met nauwkeurig uitgeslepen voegen voor een moderne en verzorgde uitstraling van de gevel.
+                </p>
+                <div class="project-card__tags"><span>Snijvoeg</span></div>
+              </header>
+              <div class="project-triptych">
+                <div class="project-triptych__cell">
+                  <span class="ba-label ba-label--alt">Snijvoeg – strakke afwerking</span>
+                  <img
+                    src="img/projecten/voeg-detail-lang-01.png"
+                    alt="Rode baksteengevel met strak uitgeslepen snijvoeg langs het geveloppervlak"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-triptych__cell">
+                  <span class="ba-label ba-label--alt">Detail snijvoeg</span>
+                  <img
+                    src="img/projecten/voeg-detail-lang-02.png"
+                    alt="Detailopname snijvoeg: gelijk profiel in de verticale en horizontale voegen"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-triptych__cell">
+                  <span class="ba-label ba-label--alt">Hoekafwerking snijvoeg</span>
+                  <img
+                    src="img/projecten/voeg-detail-knip-01.png"
+                    alt="Hoek of overgang op de gevel met strak uitgevoerde snijvoeg bij rode steen"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>
+                Deze drie opnamen tonen <strong>snijvoeg</strong> met gelijk profiel en nauwkeurig uitgeslepen voegrand —
+                een rustig lijnenspel op de gevel en duurzaam onderhoudbaar vakwerk.
+              </figcaption>
+            </figure>
+
+            <figure class="project-card card-hover" data-project-cats="kleurherstel voegwerk">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Plaatselijk kleurherstel van gevelstenen 🎨</h2>
+                <p class="project-card__excerpt">
+                  De stenen zijn zorgvuldig bijgekleurd en afgestemd op de bestaande gevel. Na droging sluit de tint volledig aan
+                  op de originele steen — onzichtbaar verschil. ✨
+                </p>
+                <div class="project-card__tags"><span>Kleurherstel</span><span>Voegwerk</span></div>
+              </header>
+              <div class="ba-grid ba-grid--paired-fit">
+                <div class="ba-cell ba-cell--paired-fit">
+                  <span class="ba-label">Verweerde koppen en beschadigde voegrand</span>
+                  <img
+                    src="img/projecten/gele-steen-deurhoek-voor.png"
+                    alt="Hoek gele gevel nabij deur: verweerde steenkoppen en beschadigde voegrand voor kleurherstel"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="ba-cell ba-cell--paired-fit ba-cell--tiktok-crop">
+                  <span class="ba-label ba-label--stage">Tijdens plaatselijk kleurherstel · nabewerk</span>
+                  <img
+                    src="img/projecten/tijdens-reiniging-scherm.png"
+                    alt="Zelfde paneel tijdens werk: bijkleuren nabij deurkozijn (schermafname)"
+                    width="520"
+                    height="340"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>
+                Plaatselijk <strong>kleurherstel</strong> op de gele koppen wordt gemengd en opgebouwd zo dat het na een volledige droging
+                aansluit op de tint van de niet‑aangeraakte steen — de <strong>voegrand</strong> wordt in de planning meegenomen waar die
+                zichtbare gebreken gaf.
+              </figcaption>
+            </figure>
+
+            <figure class="project-card card-hover project-card--wide" data-project-cats="voegwerk betonreparatie">
+              <header class="project-card__head">
+                <h2 class="project-card__title">Gevel opnieuw gevoegd en dorpel hersteld met betonsmering</h2>
+                <p class="project-card__excerpt">
+                  Onder dit venster bij gele baksteenbouw zijn het paneel langs het kozijn opnieuw ingevoegd en het dorpelvlak — onder de waterlijst — hersteld met betonsmering, zodat regenwater weer netjes naar buiten geleid wordt.
+                </p>
+                <div class="project-card__tags"><span>Voegwerk</span><span>Betonreparatie</span></div>
+              </header>
+              <div class="project-triptych">
+                <div class="project-triptych__cell project-triptych__cell--angle-shot">
+                  <span class="ba-label ba-label--stage">Werksituatie onder kozijn</span>
+                  <img
+                    src="img/projecten/venster-gevel-angle.png"
+                    alt="Voorsituatie: vensterbank en oude voeg bij gele steen onder het witte kozijn"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-triptych__cell">
+                  <span class="ba-label ba-label--after">Nieuw voegwerk · dorpel betonsmering</span>
+                  <img
+                    src="img/projecten/venster-gevel-paneel-detail.png"
+                    alt="Detail na herstel: opnieuw vervoegd steenpaneel met waterlijst naar kozijn en gesmeerd dorpelvlak"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="project-triptych__cell">
+                  <span class="ba-label ba-label--after">Overzicht na oplevering</span>
+                  <img
+                    src="img/projecten/venster-gevel-paneel-overzicht.png"
+                    alt="Overzicht raam- en deurzone na opnieuw voegwerk en herstelde dorpel met betonsmering"
+                    width="400"
+                    height="280"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <figcaption>
+                Het steenpaneel onder het venster is <strong>opnieuw ingevoegd</strong> (met kleur en profiel passend bij de gele
+                baksteen); de dorpel is <strong>hersteld met betonsmering</strong>, zodat de aansluiting op het witte kozijn weer netjes
+                gesloten en afwaterend is.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="project-videos-block" id="project-videos">
+            <h2 class="project-videos-heading">Videobeelden van ons werk</h2>
+            <p class="project-videos-intro">Opnames van de gevel tijdens uitvoering.</p>
+            <div class="project-video-grid">
+              <figure class="project-video-card">
+                <div class="project-video-shell">
+                  <video
+                    controls
+                    playsinline
+                    muted
+                    preload="none"
+                    width="720"
+                    poster="video/poster-gevel-behandeling-01.jpg?v=20260439"
+                    aria-label="Video: strak afgedichte bovenafbouw bij schoorsteen voor waterdichte afwerking (zonder geluid)"
+                  >
+                    <source src="video/gevel-behandeling-01.mp4?v=20260439" type="video/mp4" />
+                    <a href="video/gevel-behandeling-01.mp4">Download video (MP4)</a>
+                  </video>
+                </div>
+                <figcaption class="project-video-caption project-video-caption--stack">
+                  <p>Strakke afwerking, netjes waterdicht en klaar voor jaren mee 💪</p>
+                  <p>Ook problemen met je schoorsteen, voegwerk of lood?</p>
+                  <p>
+                    📩 Stuur gerust een bericht – wij regelen het.<br />
+                    <strong>Geveldiensten Drechtsteden</strong>
+                  </p>
+                </figcaption>
+              </figure>
+              <figure class="project-video-card">
+                <div class="project-video-shell">
+                  <video
+                    controls
+                    playsinline
+                    muted
+                    preload="none"
+                    width="720"
+                    poster="video/poster-gevel-opname-02.jpg?v=20260439"
+                    aria-label="Video: snijvoeg in rollaag, strak afgewerkt (zonder geluid)"
+                  >
+                    <source src="video/gevel-opname-02.mp4?v=20260439" type="video/mp4" />
+                    <a href="video/gevel-opname-02.mp4">Download video (MP4)</a>
+                  </video>
+                </div>
+                <figcaption class="project-video-caption project-video-caption--stack">
+                  <p><strong>Snijvoeg in rollaag — strak afgewerkt.</strong></p>
+                  <p>
+                    Zo blijft de waterafloop berekenbaar en trekt het vocht niet stiekem achter de gevelkoppen — werk dat prettig past
+                    bij het totaalbeeld van uw geveloppervlak 💪
+                  </p>
+                  <p>
+                    Vergelijkbare zichtlijn of rollaag op uw adres?<br />
+                    📩 Stuur een bericht of vraag een offerte — wij bekijken het graag mee.<br />
+                    <strong>Geveldiensten Drechtsteden</strong>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-bottom" aria-labelledby="cta-proj">
+        <div class="wrap cta-bottom-inner">
+          <div>
+            <h2 id="cta-proj">Ook uw gevel in topvorm?</h2>
+            <p>Vraag een vrijblijvende offerte of stuur foto’s mee.</p>
+          </div>
+          <a class="btn btn-primary btn-cta-large" href="contact.html#offerte">Contact opnemen</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-cols">
+          <div class="footer-col">
+            <div class="footer-tagline">Geveldiensten Drechtsteden</div>
+            <p class="footer-lead">Vakmanschap in elke gevel — gevelrenovatie, voegwerk en herstel in Zuid-Holland en omstreken.</p>
+          </div>
+          <div class="footer-col">
+            <h3>Navigatie</h3>
+            <ul>
+              <li><a href="over-ons.html">Over ons</a></li>
+              <li><a href="diensten.html">Diensten</a></li>
+              <li><a href="projecten.html">Projecten</a></li>
+              <li><a href="werkgebied.html">Werkgebied</a></li>
+              <li><a href="faq.html">Veelgestelde vragen</a></li>
+              <li><a href="reviews.html">Klanten</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="tel:+31621387800">06 2138 7800</a></li>
+              <li><a href="mailto:geveldienstendrechtsteden@gmail.com">E-mail</a></li>
+              <li><a href="contact.html#offerte">Offerte aanvragen</a></li>
+              <li><a href="https://wa.me/31621387800" rel="noopener noreferrer" target="_blank">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>KVK 94861072 · Regio Zuid-Holland en omstreken</span>
+          <span><a href="privacy.html">Privacy</a></span>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js?v=20260447"></script>
+  </body>
+</html>
