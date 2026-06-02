@@ -61,3 +61,16 @@
     });
   });
 })();
+
+(function () {
+  if (document.querySelector(".sticky-contact")) return;
+
+  var holder = document.createElement("div");
+  holder.className = "sticky-contact";
+  holder.setAttribute("aria-label", "Snel contact");
+  holder.innerHTML =
+    '<a class="sticky-contact__whatsapp" href="https://wa.me/31621387800" target="_blank" rel="noopener noreferrer">WhatsApp</a>' +
+    '<a class="sticky-contact__phone" href="tel:+31621387800">Bel 06 2138 7800</a>';
+
+  document.body.appendChild(holder);
+})();
