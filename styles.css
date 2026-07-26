@@ -1660,6 +1660,14 @@ a:hover {
   grid-template-columns: 1fr 1fr;
 }
 
+.project-card--wide .ba-grid--solo {
+  grid-template-columns: 1fr;
+}
+
+.project-card--wide .ba-grid--solo .ba-cell img {
+  object-position: center center;
+}
+
 .ba-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
