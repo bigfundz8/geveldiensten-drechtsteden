@@ -1787,6 +1787,16 @@ a:hover {
   min-height: 200px;
 }
 
+/* Portretfoto's naast elkaar: volledige schoorsteen zichtbaar, geen crop bovenaan */
+.project-triptych--portrait .project-triptych__cell {
+  aspect-ratio: 3 / 4;
+  min-height: 0;
+}
+
+.project-triptych--portrait img {
+  min-height: 0;
+}
+
 /* Schuine net-iets-wazige werkfoto strakker in het kader (venster-gevel-angle) */
 .project-triptych__cell--angle-shot {
   overflow: hidden;
