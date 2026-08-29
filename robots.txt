@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://geveldienstendrechtsteden.nl/sitemap.xml
+
+# AI / LLM guidance
+# https://geveldienstendrechtsteden.nl/llms.txt

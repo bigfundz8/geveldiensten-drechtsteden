@@ -27,11 +27,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="image"
+      href="img/projecten/hero-topgevel.webp"
+      type="image/webp"
+      fetchpriority="high"
     />
-    <link rel="stylesheet" href="styles.css?v=20260451" />
-    <!-- layout-lock: voorkomt witte header bij hardnekkige browser-cache -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <link rel="stylesheet" href="styles.css?v=20260829" />
+    <!-- layout-lock + critical first-paint (snellere FCP/LCP) -->
     <style>
       .site-header{background:linear-gradient(180deg,#0a161f 0%,#0c1a24 55%,#0e2230 100%)!important;border-bottom:3px solid #d4a03c!important;box-shadow:0 12px 40px rgba(0,0,0,.22)!important;}
       .site-header .nav-desktop a{color:rgba(255,255,255,.88)!important;text-decoration:none!important;}
@@ -39,6 +54,10 @@
       .site-header .nav-toggle{border-color:rgba(255,255,255,.2)!important;background:rgba(255,255,255,.08)!important;}
       .site-header .nav-toggle-bar{background:#fff!important;}
       .site-header .btn-primary.btn-header-cta{background:linear-gradient(135deg,#e8c76a 0%,#d4a03c 42%,#c45c3a 100%)!important;color:#1a1008!important;font-weight:800!important;}
+      body{margin:0;background:#f3ebe0;color:#121a22;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;}
+      .hero{position:relative;color:#e8eef3;padding:52px 0 56px;background-color:#0c1a24;background-image:radial-gradient(ellipse 90% 70% at 85% 35%,rgba(196,92,58,.28) 0%,transparent 52%),linear-gradient(115deg,rgba(12,26,36,.96) 0%,rgba(24,61,82,.72) 42%,rgba(12,26,36,.88) 100%),url("img/projecten/hero-topgevel.webp");background-size:cover;background-position:center 35%;}
+      .hero h1{margin:0 0 16px;font-size:clamp(2.1rem,8vw,3.4rem);line-height:1.05;font-weight:800;letter-spacing:-.03em;}
+      .wrap{width:min(1120px,calc(100% - 2rem));margin-inline:auto;}
     </style>
 
     <script type="application/ld+json">
@@ -48,8 +67,8 @@
         "name": "Geveldiensten Drechtsteden",
         "alternateName": "GeveldienstenDrechtsteden",
         "url": "https://geveldienstendrechtsteden.nl/",
-        "logo": "https://geveldienstendrechtsteden.nl/img/logo-header-brand-transparent.png?v=20260451",
-        "image": "https://geveldienstendrechtsteden.nl/img/logo-header-brand-transparent.png?v=20260451",
+        "logo": "https://geveldienstendrechtsteden.nl/img/logo-header-brand.webp?v=20260829",
+        "image": "https://geveldienstendrechtsteden.nl/img/logo-header-brand.webp?v=20260829",
         "telephone": "+31621387800",
         "email": "info@geveldienstendrechtsteden.nl",
         "priceRange": "€€",
@@ -100,11 +119,14 @@
         <a class="brand" href="/" aria-label="Geveldiensten Drechtsteden home">
           <img
             class="brand-logo"
-            src="img/logo-header-brand-transparent.png?v=20260451"
+            src="img/logo-header-brand.webp?v=20260829"
+            srcset="img/logo-header-brand.webp?v=20260829 400w, img/logo-header-brand@2x.webp?v=20260829 700w"
+            sizes="(max-width: 700px) 150px, 200px"
             alt="Geveldiensten Drechtsteden — gevelrenovatie, gevelreiniging, metselwerken, impregneren"
-            width="613"
-            height="159"
+            width="400"
+            height="104"
             decoding="async"
+            fetchpriority="high"
           />
         </a>
         <nav class="nav-desktop" aria-label="Hoofdmenu">
@@ -170,10 +192,13 @@
           <aside class="hero-card hero-card--accent hero-card--logo" aria-label="Geveldiensten Drechtsteden">
             <img
               class="hero-card-logo"
-              src="img/logo-header-brand-transparent.png?v=20260451"
-              width="613"
-              height="159"
+              src="img/logo-header-brand.webp?v=20260829"
+              srcset="img/logo-header-brand.webp?v=20260829 400w, img/logo-header-brand@2x.webp?v=20260829 700w"
+              sizes="280px"
+              width="400"
+              height="104"
               alt="Geveldiensten Drechtsteden — gevelrenovatie, gevelreiniging, metselwerken, impregneren"
+              decoding="async"
             />
             <a class="btn btn-primary btn-block" href="contact#offerte">Naar het formulier</a>
           </aside>
@@ -610,8 +635,8 @@
         </div>
       </div>
     </footer>
-    <script src="analytics-config.js?v=20260726"></script>
-    <script src="analytics.js?v=20260726"></script>
-    <script src="main.js?v=20260451"></script>
+    <script src="analytics-config.js?v=20260829"></script>
+    <script src="analytics.js?v=20260829"></script>
+    <script src="main.js?v=20260829"></script>
   </body>
 </html>

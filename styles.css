@@ -14,7 +14,7 @@
   --cream: #faf6f0;
   --white: #fffcf8;
   --text: #121a22;
-  --muted: #5a6570;
+  --muted: #3d4650;
   --gold-rgb: 212, 160, 60;
   --terra-rgb: 196, 92, 58;
   --navy-rgb: 12, 26, 36;
@@ -24,7 +24,7 @@
   --shadow-sm: 0 10px 28px rgba(var(--navy-rgb), 0.09);
   --shadow-hover: 0 32px 64px rgba(var(--navy-rgb), 0.18);
   --font: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  --hero-img: url("img/projecten/topgevel-dubbel-01.png");
+  --hero-img: url("img/projecten/hero-topgevel.webp");
 }
 
 *,
@@ -672,42 +672,34 @@ a:hover {
   }
 }
 
+/* H1/eyebrow zonder opacity-animatie: houdt LCP snel (PageSpeed).
+   Alleen secundaire hero-elementen bewegen. */
 @media (prefers-reduced-motion: no-preference) {
-  .hero-animate .hero-copy > .hero-eyebrow,
-  .hero-animate .hero-copy > h1,
   .hero-animate .hero-copy > .hero-lead,
   .hero-animate .hero-copy > .hero-badges,
   .hero-animate .hero-copy > .hero-cta,
   .hero-animate .hero-copy > .hero-micro {
-    animation: heroFadeUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) backwards;
-  }
-
-  .hero-animate .hero-copy > .hero-eyebrow {
-    animation-delay: 0.05s;
-  }
-
-  .hero-animate .hero-copy > h1 {
-    animation-delay: 0.12s;
+    animation: heroFadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) backwards;
   }
 
   .hero-animate .hero-copy > .hero-lead {
-    animation-delay: 0.22s;
+    animation-delay: 0.08s;
   }
 
   .hero-animate .hero-copy > .hero-badges {
-    animation-delay: 0.28s;
+    animation-delay: 0.14s;
   }
 
   .hero-animate .hero-copy > .hero-cta {
-    animation-delay: 0.36s;
+    animation-delay: 0.2s;
   }
 
   .hero-animate .hero-copy > .hero-micro {
-    animation-delay: 0.46s;
+    animation-delay: 0.26s;
   }
 
   .hero-animate .hero-card--accent {
-    animation: heroFadeUp 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.4s backwards;
+    animation: heroFadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.18s backwards;
   }
 }
 
@@ -2785,7 +2777,7 @@ textarea {
 
 .process-step strong {
   display: block;
-  color: var(--terracotta);
+  color: var(--terracotta-deep);
   font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
