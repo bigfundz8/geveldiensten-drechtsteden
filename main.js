@@ -69,7 +69,7 @@
   holder.className = "sticky-contact";
   holder.setAttribute("aria-label", "Snel contact");
   holder.innerHTML =
-    '<a class="sticky-contact__whatsapp" href="https://wa.me/31621387800" target="_blank" rel="noopener noreferrer">WhatsApp</a>' +
+    '<a class="sticky-contact__whatsapp" href="https://wa.me/31621387800?text=Hallo%2C%20ik%20stuur%20foto%27s%20mee%20voor%20een%20vrijblijvende%20offerte." target="_blank" rel="noopener noreferrer">Foto\'s sturen</a>' +
     '<a class="sticky-contact__phone" href="tel:+31621387800">Bel 06 2138 7800</a>';
 
   document.body.appendChild(holder);

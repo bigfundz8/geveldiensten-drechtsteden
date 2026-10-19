@@ -1,6 +1,6 @@
 # Geveldiensten Drechtsteden
 
-> Specialist in gevelrenovatie, voegwerk, metselwerk, gevelreiniging, betonreparatie en impregneren in Zuid-Holland en omstreken (Dordrecht, Rotterdam, Schiedam, Barendrecht, Drechtsteden).
+> Specialist in gevelrenovatie, voegwerk, metselwerk, gevelreiniging, betonreparatie en impregneren in Zuid-Holland en omstreken (Dordrecht, Papendrecht, Rotterdam, Schiedam, Barendrecht, Ridderkerk, Drechtsteden).
 
 ## Contact
 
@@ -23,10 +23,15 @@
 
 ## Lokale dienstenpagina's
 
-- [Gevelrenovatie Dordrecht](https://geveldienstendrechtsteden.nl/gevelrenovatie-dordrecht)
-- [Voegwerk Dordrecht](https://geveldienstendrechtsteden.nl/voegwerk-dordrecht)
-- [Voegwerk Rotterdam](https://geveldienstendrechtsteden.nl/voegwerk-rotterdam)
+- [Gevelrenovatie en gevelrestauratie Dordrecht](https://geveldienstendrechtsteden.nl/gevelrenovatie-dordrecht)
+- [Voegbedrijf Dordrecht](https://geveldienstendrechtsteden.nl/voegwerk-dordrecht)
+- [Voegbedrijf Rotterdam](https://geveldienstendrechtsteden.nl/voegwerk-rotterdam)
 - [Gevelreiniging Rotterdam](https://geveldienstendrechtsteden.nl/gevelreiniging-rotterdam)
+- [Gevelreiniging Dordrecht](https://geveldienstendrechtsteden.nl/gevelreiniging-dordrecht)
+- [Gevelreiniging Papendrecht](https://geveldienstendrechtsteden.nl/gevelreiniging-papendrecht)
+- [Schoorsteenbedrijf Drechtsteden](https://geveldienstendrechtsteden.nl/schoorstenen-voegen-dordrecht)
+- [Gevelrenovatie Ridderkerk](https://geveldienstendrechtsteden.nl/gevelrenovatie-ridderkerk)
+- [Stalen latei Hardinxveld-Giessendam](https://geveldienstendrechtsteden.nl/stalen-latei-hardinxveld-giessendam)
 - [Betonreparatie Schiedam](https://geveldienstendrechtsteden.nl/betonreparatie-schiedam)
 - [Gevelherstel Barendrecht](https://geveldienstendrechtsteden.nl/gevelherstel-barendrecht)
 - [Metselwerk Brouwershaven](https://geveldienstendrechtsteden.nl/metselwerk-brouwershaven)
